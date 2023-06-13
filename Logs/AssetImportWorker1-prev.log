@@ -1,0 +1,252 @@
+Using pre-set license
+Built from '2020.3/staging' branch; Version is '2020.3.3f1 (76626098c1c4) revision 7758432'; Using compiler version '192528614'; Build Type 'Release'
+OS: 'Windows 10 Pro; OS build 19044.2965; Version 2009; 64bit' Language: 'es' Physical Memory: 8027 MB
+BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 0
+
+ COMMAND LINE ARGUMENTS:
+C:\Program Files\Unity\Hub\Editor\2020.3.3f1\Editor\Unity.exe
+-adb2
+-batchMode
+-noUpm
+-name
+AssetImportWorker1
+-projectPath
+C:/Users/user/Documents/BECA/UnityControllerForTello - copia
+-logFile
+Logs/AssetImportWorker1.log
+-srvPort
+52686
+Successfully changed project path to: C:/Users/user/Documents/BECA/UnityControllerForTello - copia
+C:/Users/user/Documents/BECA/UnityControllerForTello - copia
+Using Asset Import Pipeline V2.
+Refreshing native plugins compatible for Editor in 168.71 ms, found 16 plugins.
+Preloading 1 native plugins for Editor in 1.55 ms.
+Initialize engine version: 2020.3.3f1 (76626098c1c4)
+[Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2020.3.3f1/Editor/Data/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path C:/Users/user/Documents/BECA/UnityControllerForTello - copia/Assets
+GfxDevice: creating device client; threaded=0
+Direct3D:
+    Version:  Direct3D 11.0 [level 11.1]
+    Renderer: Intel(R) UHD Graphics 600 (ID=0x3185)
+    Vendor:   
+    VRAM:     4013 MB
+    Driver:   31.0.101.2111
+Initialize mono
+Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2020.3.3f1/Editor/Data/Managed'
+Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2020.3.3f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit'
+Mono config path = 'C:/Program Files/Unity/Hub/Editor/2020.3.3f1/Editor/Data/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56232
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2020.3.3f1/Editor/Data/PlaybackEngines/WebGLSupport/UnityEditor.WebGL.Extensions.dll
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2020.3.3f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Registered in 0.004854 seconds.
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 127.42 ms, found 16 plugins.
+Preloading 1 native plugins for Editor in 0.19 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  6.128 seconds
+Platform modules already initialized, skipping
+Registering precompiled user dll's ...
+Registered in 0.015559 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 118.52 ms, found 16 plugins.
+Preloading 1 native plugins for Editor in 0.16 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+[XR] OculusXRPlugin: registering subsystems
+[XR] Unable to register display lifecyle provider: [1]
+[XR] Oculus Input lifecycle provider registered.
+[XR] Unable to register input lifecyle provider: [1]
+NullReferenceException: Object reference not set to an instance of an object
+  at Unity.XR.Oculus.OculusLoader.AssetPathToAbsolutePath (System.String assetPath) [0x00048] in C:\Users\user\Documents\BECA\UnityControllerForTello\Library\PackageCache\com.unity.xr.oculus@1.8.1\Runtime\OculusLoader.cs:243 
+  at Unity.XR.Oculus.OculusLoader.EditorLoadOVRPlugin () [0x0007b] in C:\Users\user\Documents\BECA\UnityControllerForTello\Library\PackageCache\com.unity.xr.oculus@1.8.1\Runtime\OculusLoader.cs:228 
+
+(Filename: C:/Users/user/Documents/BECA/UnityControllerForTello/Library/PackageCache/com.unity.xr.oculus@1.8.1/Runtime/OculusLoader.cs Line: 243)
+
+Mono: successfully reloaded assembly
+- Completed reload, in  2.583 seconds
+Platform modules already initialized, skipping
+========================================================================
+Worker process is ready to serve import requests
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.10 seconds
+Refreshing native plugins compatible for Editor in 2.11 ms, found 16 plugins.
+Preloading 1 native plugins for Editor in 0.21 ms.
+Unloading 2618 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 117.2 MB.
+System memory in use after: 117.2 MB.
+
+Unloading 60 unused Assets to reduce memory usage. Loaded Objects now: 3034.
+Total: 5.846200 ms (FindLiveObjects: 0.928800 ms CreateObjectMapping: 0.165000 ms MarkObjects: 4.563400 ms  DeleteObjects: 0.185800 ms)
+
+========================================================================
+Received Import Request.
+  path: Assets/Scripts/UnityTelloController/UIManager.cs
+  artifactKey: Guid(17f09309677d6c24ab2bc6b3302607ee) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/UnityTelloController/UIManager.cs using Guid(17f09309677d6c24ab2bc6b3302607ee) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '502db185d0b0b246d559c01de99eef5e') in 0.081966 seconds
+  Import took 0.089653 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 67.927469 seconds.
+  path: Assets/Scripts/UnityTelloController/InputController.cs
+  artifactKey: Guid(e4787c3498c8dfd4ba455948282b8bd1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/UnityTelloController/InputController.cs using Guid(e4787c3498c8dfd4ba455948282b8bd1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a7f722a0a5d388c4bf862c5b001faaca') in 0.023540 seconds
+  Import took 0.033392 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.020951 seconds.
+  path: Assets/Scripts/UnityTelloController/InputController.cs
+  artifactKey: Guid(e4787c3498c8dfd4ba455948282b8bd1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/UnityTelloController/InputController.cs using Guid(e4787c3498c8dfd4ba455948282b8bd1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a7f722a0a5d388c4bf862c5b001faaca') in 0.006753 seconds
+  Import took 0.015562 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 13.626819 seconds.
+  path: Assets/Scripts/UnityTelloController/InputController.cs
+  artifactKey: Guid(e4787c3498c8dfd4ba455948282b8bd1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/UnityTelloController/InputController.cs using Guid(e4787c3498c8dfd4ba455948282b8bd1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '18ee91accd83faa355d76bbd5708cd6d') in 0.009095 seconds
+  Import took 0.016814 seconds .
+
+========================================================================
+Received Prepare
+Switching build target platform(13) subTarget(537395200) extendedPlatform(0) -> platform(13) subTarget(524288) extendedPlatform(0)
+Shader 'Oculus/OVRMRCameraFrameLit': fallback shader 'Alpha-Diffuse' not found
+Shader 'Oculus/OVRMRCameraFrameLit': fallback shader 'Alpha-Diffuse' not found
+Refreshing native plugins compatible for Editor in 52.00 ms, found 19 plugins.
+Preloading 1 native plugins for Editor in 0.19 ms.
+Unloading 1861 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 128.0 MB.
+System memory in use after: 122.7 MB.
+
+Unloading 176 unused Assets to reduce memory usage. Loaded Objects now: 4720.
+Total: 18.260000 ms (FindLiveObjects: 1.152200 ms CreateObjectMapping: 0.311300 ms MarkObjects: 10.350000 ms  DeleteObjects: 6.443200 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  buildTarget: platform 13, subtarget 524288, extendedPlatform 0 -> platform 13, subtarget 537395200, extendedPlatform 0
+  graphicsApiMask: 2048 -> 2099200
+========================================================================
+Received Import Request.
+  Time since last request: 3656.040526 seconds.
+  path: Assets/Oculus/VR/Oculus.VR.asmdef
+  artifactKey: Guid(f64c9ebcd7899c3448a08dc9f9ddbe30) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Oculus/VR/Oculus.VR.asmdef using Guid(f64c9ebcd7899c3448a08dc9f9ddbe30) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0ab91fdc230603909ade2b13c245e62c') in 0.030513 seconds
+  Import took 0.044312 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.677193 seconds.
+  path: Assets/Oculus/OculusProjectConfig.asset
+  artifactKey: Guid(78bdf13a4ca1b0a43ae0a9e7965fca08) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Oculus/OculusProjectConfig.asset using Guid(78bdf13a4ca1b0a43ae0a9e7965fca08) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '888319d4394551e4814e168e74497f74') in 0.020980 seconds
+  Import took 0.032927 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 8.177049 seconds.
+  path: Assets/XRI
+  artifactKey: Guid(ca2d673baf65f854185cde61bc7770f4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/XRI using Guid(ca2d673baf65f854185cde61bc7770f4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e7bd6346255245b72ade48fe13d2fafa') in 0.017378 seconds
+  Import took 0.029299 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 3.298817 seconds.
+  path: Assets/XRI/Settings
+  artifactKey: Guid(fbd3e47d1b040094a85f7ce78d742003) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/XRI/Settings using Guid(fbd3e47d1b040094a85f7ce78d742003) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '097d441f67f99e239555fd6396fcbf49') in 0.016698 seconds
+  Import took 0.029795 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.007921 seconds.
+  path: Assets/XRI/Settings/XRInteractionEditorSettings.asset
+  artifactKey: Guid(c3b31789e11f6a5499c7a1ed3baf89ab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/XRI/Settings/XRInteractionEditorSettings.asset using Guid(c3b31789e11f6a5499c7a1ed3baf89ab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5f3f119d27d3d31abf4cea73eb60cb8a') in 0.063508 seconds
+  Import took 0.075620 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 120.122266 seconds.
+  path: Assets/Oculus
+  artifactKey: Guid(de05518d46bbb484a845d6e9f5abd68a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Oculus using Guid(de05518d46bbb484a845d6e9f5abd68a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '983536d258598e8db418a96ae725c886') in 0.022296 seconds
+  Import took 0.034767 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 331.942976 seconds.
+  path: Assets/Samples
+  artifactKey: Guid(896d4b22c05e36441aba7c6ff2dbb6d8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Samples using Guid(896d4b22c05e36441aba7c6ff2dbb6d8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '690caf24798be35b25ddf8a093011d23') in 0.019385 seconds
+  Import took 0.033260 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 1.336782 seconds.
+  path: Assets/Samples/XR Interaction Toolkit
+  artifactKey: Guid(9c18cba2c146503449e2069b4cabf114) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Samples/XR Interaction Toolkit using Guid(9c18cba2c146503449e2069b4cabf114) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '44aca366da46a2387ad184992fffe6f9') in 0.018371 seconds
+  Import took 0.030785 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.722941 seconds.
+  path: Assets/Samples/XR Hands
+  artifactKey: Guid(10bfc0d7609e84c4ab349647c7d721a1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Samples/XR Hands using Guid(10bfc0d7609e84c4ab349647c7d721a1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '809d3e948392f8fc6fdd91148ee685f1') in 0.017387 seconds
+  Import took 0.031148 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.172288 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 2.77 ms, found 18 plugins.
+Preloading 1 native plugins for Editor in 0.26 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+NullReferenceException: Object reference not set to an instance of an object
+  at Unity.XR.Oculus.OculusLoader.AssetPathToAbsolutePath (System.String assetPath) [0x00048] in C:\Users\user\Documents\BECA\UnityControllerForTello - copia\Library\PackageCache\com.unity.xr.oculus@1.8.1\Runtime\OculusLoader.cs:243 
+  at Unity.XR.Oculus.OculusLoader.EditorLoadOVRPlugin () [0x0007b] in C:\Users\user\Documents\BECA\UnityControllerForTello - copia\Library\PackageCache\com.unity.xr.oculus@1.8.1\Runtime\OculusLoader.cs:228 
+
+(Filename: Library/PackageCache/com.unity.xr.oculus@1.8.1/Runtime/OculusLoader.cs Line: 243)
+
+Mono: successfully reloaded assembly
+- Completed reload, in  2.387 seconds
+Platform modules already initialized, skipping
+Switching build target platform(5) subTarget(0) extendedPlatform(0) -> platform(13) subTarget(524288) extendedPlatform(0)
+Refreshing native plugins compatible for Editor in 2.69 ms, found 18 plugins.
+Preloading 1 native plugins for Editor in 0.21 ms.
+Unloading 2644 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 130.8 MB.
+System memory in use after: 130.4 MB.
+
+Unloading 1426 unused Assets to reduce memory usage. Loaded Objects now: 3415.
+Total: 7.122200 ms (FindLiveObjects: 1.143800 ms CreateObjectMapping: 0.284200 ms MarkObjects: 4.544800 ms  DeleteObjects: 1.147000 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:graphics/normal-map-encoding: 01000000000000000000000000000000 -> 02000000000000000000000000000000
+========================================================================
+Received Prepare
+Refreshing native plugins compatible for Editor in 42.27 ms, found 18 plugins.
+Preloading 1 native plugins for Editor in 0.16 ms.
+Unloading 61 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 72.3 MB.
+System memory in use after: 72.5 MB.
+
+Unloading 61 unused Assets to reduce memory usage. Loaded Objects now: 3415.
+Total: 7.171200 ms (FindLiveObjects: 1.141000 ms CreateObjectMapping: 0.335100 ms MarkObjects: 5.606000 ms  DeleteObjects: 0.085000 ms)
+
